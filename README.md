@@ -1,9 +1,9 @@
-# the-bellboy
+# StayCoza
 This Project is being developed in Android using Java.
 
-This is a basic hotel booking application.
+This is a basic Travel application that includes flight and accomodation booking services.
 
-This application allows user to search and compare the hotels and their rates.
+This application allows user to search and compare the hotels, flights and their rates.
 
 Users can see the pictures and amenities that hotels provide.
 
@@ -20,11 +20,6 @@ Firebase
 
 # Testing account
 
-Id : bhumil.15beceg048@gmail.com
+Id : sakshampandla1604@gmail.com
 
-password : bhumil1212
-
-# Working video of the application :
-
-
-https://drive.google.com/file/d/1OF8k5fb63H9s_FS_RE4JBcqJ6P16aAC-/view?usp=sharing
+password : saksham16
