@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "309265013908",
+    "project_id": "stay-coza",
+    "storage_bucket": "stay-coza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309265013908:android:e6ff1d88df0b6b18836881",
+        "android_client_info": {
+          "package_name": "com.mad.staycoza"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWkUd4mEws1GUPb__x2SezTAw-HIr_kOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

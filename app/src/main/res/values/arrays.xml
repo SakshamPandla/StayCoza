@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="food_types">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <!-- Add more options as needed -->
+    </string-array>
+
+    <string-array name="country_codes">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <!-- Add more options as needed -->
+    </string-array>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mad.StayCoza">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StayCoza">
+
+        <activity
+            android:name="com.mad.StayCoza.MainActivity2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Add the activity tag for Flight2 -->
+        <activity android:name="com.mad.StayCoza.Flight2" />
+
+        <!-- Add the activity tag for contact1 -->
+        <activity android:name="com.mad.StayCoza.contact1" />
+
+        <!-- Add the activity tag for contact2 -->
+        <activity android:name="com.mad.StayCoza.contact2" />
+
+        <activity android:name="com.mad.StayCoza.seat" />
+
+        <activity android:name="com.mad.StayCoza.CheckoutActivity"></activity>
+        <activity android:name="com.mad.StayCoza.PlacedOrderActivity" />
+        <activity android:name="com.mad.StayCoza.OrderListActivity" />
+        <activity android:name="com.mad.StayCoza.SingleProductActivity" />
+        <activity
+            android:name="com.mad.StayCoza.HotelsActivity"
+            android:label="@string/title_activity_hotels">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity> <!-- <uses-library -->
+        <!-- android:name="com.google.android.wearable" -->
+        <!-- android:required="false" /> -->
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.wearable.standalone" -->
+        <!-- android:value="true" /> -->
+        <activity android:name="com.mad.StayCoza.MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="com.mad.StayCoza.LoginActivity" />
+        <activity android:name="com.mad.StayCoza.SingleProduct" />
+        <activity android:name="com.mad.StayCoza.SplashScreenActivity">
+
+            <!-- android:label="@string/title_activity_splashscreen"> -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mad.StayCoza.RegisterActivity"
+            android:label="@string/title_activity_signup">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>

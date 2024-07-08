@@ -1,0 +1,276 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ll" />
+
+    <TextView
+        android:id="@+id/search_flights_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Plan Your Trip"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:id="@+id/rectangle_box2"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:layout_below="@id/rectangle_box"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="0dp"
+        android:background="@android:color/transparent"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:id="@+id/airline_logo2"
+            android:layout_width="44dp"
+            android:layout_height="42dp"
+            android:src="@drawable/air" />
+
+        <TextView
+            android:id="@+id/flight_details2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:text="Mumbai to Delhi"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/flight_times2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_details2"
+            android:layout_marginTop="42dp"
+            android:text="Depart: 10:00 AM - Arrive: 12:30 PM"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/flight_duration2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_times2"
+            android:textColor="@android:color/black"
+            android:text="Duration: 2h 30m"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/flight_date2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_duration2"
+            android:text="Date: 2024-05-02"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/flight_price2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_date2"
+            android:text="Price: ₹5000"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/airline_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_price2"
+            android:text="Airline: Air India"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/book_now_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="Book Now" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rectangle_box"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:layout_below="@id/search_flights_heading"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="-2dp"
+        android:background="@android:color/transparent"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:id="@+id/airline_logo"
+            android:layout_width="44dp"
+            android:layout_height="42dp"
+            android:src="@drawable/air" />
+
+        <TextView
+            android:id="@+id/flight_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:text="Goa to Bengaluru"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/flight_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_details"
+            android:layout_marginTop="42dp"
+            android:text="Depart: 11:00 AM - Arrive: 01:30 PM"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/flight_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_times"
+            android:text="Duration: 2h 30m"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/flight_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_duration"
+            android:text="Date: 2024-05-02"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/flight_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_date"
+            android:text="Price: ₹6600"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/airline_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_price"
+            android:text="Airline: Air India"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/book_now_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="Book Now" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rectangle_box3"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:layout_below="@id/rectangle_box2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="0dp"
+        android:background="@android:color/transparent"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/airline_logo3"
+            android:layout_width="44dp"
+            android:layout_height="42dp"
+            android:src="@drawable/air" />
+
+        <TextView
+            android:id="@+id/flight_details3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:text="Delhi to Mumbai"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/flight_times3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_details3"
+            android:layout_marginTop="42dp"
+            android:text="Depart: 03:00 PM - Arrive: 05:30 PM"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/flight_duration3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_times3"
+            android:text="Duration: 2h 30m"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/flight_date3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_duration3"
+            android:text="Date: 2024-05-03"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/flight_price3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_date3"
+            android:text="Price: ₹7000"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/airline_name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flight_price3"
+            android:text="Airline: Air India"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/book_now_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="Book Now" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
