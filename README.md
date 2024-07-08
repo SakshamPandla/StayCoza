@@ -17,6 +17,7 @@ IDE : Android Studio
 
 # Database used
 Firebase
+SQL Lite
 
 # Testing account
 
